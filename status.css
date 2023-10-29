@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divhead{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 20px 20px;
+    height: 10%;
+}
+
+.headleft{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headright{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.headright1{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.bodycontainer{
+    display: flex;
+    background-color: blue;
+    height: 90%;
+    width: 100%;
+
+}
+
+.menu{
+    width: 30%;
+    border-right: 2px solid black;
+}
+
+.content{
+    width: 70%;
+}
